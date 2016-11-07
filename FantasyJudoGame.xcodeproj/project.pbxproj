@@ -7,23 +7,64 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		19454B091DA5B49300C3AEDA /* TekmovalciViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 19454B081DA5B49300C3AEDA /* TekmovalciViewController.swift */; };
+		19454B0B1DA5B97F00C3AEDA /* TekmovalciTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 19454B0A1DA5B97F00C3AEDA /* TekmovalciTableViewCell.swift */; };
+		195E7BFD1DA14C34004BFA77 /* CompetitionsTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 195E7BFC1DA14C34004BFA77 /* CompetitionsTableViewController.swift */; };
+		195E7BFF1DA14C77004BFA77 /* CompetitionsTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 195E7BFE1DA14C77004BFA77 /* CompetitionsTableViewCell.swift */; };
+		195E7C021DA25DAC004BFA77 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 195E7C001DA25DAC004BFA77 /* Main.storyboard */; };
+		1961898A1DA4F86F00F3A5E3 /* TekmovanjeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 196189891DA4F86F00F3A5E3 /* TekmovanjeViewController.swift */; };
+		1961898E1DA5261200F3A5E3 /* Category.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1961898D1DA5261200F3A5E3 /* Category.swift */; };
+		1981D7721DA376A300832D3E /* Competition.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1981D7711DA376A300832D3E /* Competition.swift */; };
+		1981D7761DA37F1E00832D3E /* CompCategoriesCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1981D7751DA37F1E00832D3E /* CompCategoriesCollectionViewCell.swift */; };
+		1981D77D1DA3CEE600832D3E /* Competitor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1981D77C1DA3CEE600832D3E /* Competitor.swift */; };
+		19E961091D9FEF3D0002907C /* Bolts.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 19E961081D9FEF3D0002907C /* Bolts.framework */; };
+		19E9610B1DA0099B0002907C /* HomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 19E9610A1DA0099B0002907C /* HomeViewController.swift */; };
+		19E9610D1DA03FF30002907C /* ProfileTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 19E9610C1DA03FF30002907C /* ProfileTableViewController.swift */; };
+		19E9610F1DA041690002907C /* TextInputTableView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 19E9610E1DA041690002907C /* TextInputTableView.swift */; };
+		19E961131DA108150002907C /* UsersCollectionViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 19E961121DA108150002907C /* UsersCollectionViewController.swift */; };
+		19E961151DA109700002907C /* CollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 19E961141DA109700002907C /* CollectionViewCell.swift */; };
 		19ED034D1D9FB51600154A82 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 19ED034C1D9FB51600154A82 /* AppDelegate.swift */; };
 		19ED034F1D9FB51600154A82 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 19ED034E1D9FB51600154A82 /* ViewController.swift */; };
-		19ED03521D9FB51600154A82 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 19ED03501D9FB51600154A82 /* Main.storyboard */; };
 		19ED03551D9FB51600154A82 /* FantasyJudoGame.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 19ED03531D9FB51600154A82 /* FantasyJudoGame.xcdatamodeld */; };
 		19ED03571D9FB51600154A82 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 19ED03561D9FB51600154A82 /* Assets.xcassets */; };
 		19ED035A1D9FB51600154A82 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 19ED03581D9FB51600154A82 /* LaunchScreen.storyboard */; };
+		19ED03621D9FB53500154A82 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 19ED03611D9FB53500154A82 /* GoogleService-Info.plist */; };
+		19EDB1091D9FE0F000206CA2 /* FBSDKCoreKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 19EDB1061D9FE0F000206CA2 /* FBSDKCoreKit.framework */; };
+		19EDB10A1D9FE0F000206CA2 /* FBSDKLoginKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 19EDB1071D9FE0F000206CA2 /* FBSDKLoginKit.framework */; };
+		220C8D43296C552DD395B2C2 /* Pods_FantasyJudoGame.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AD56E9E5BCE47414D9DF7260 /* Pods_FantasyJudoGame.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		19454B081DA5B49300C3AEDA /* TekmovalciViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TekmovalciViewController.swift; sourceTree = "<group>"; };
+		19454B0A1DA5B97F00C3AEDA /* TekmovalciTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TekmovalciTableViewCell.swift; sourceTree = "<group>"; };
+		195E7BFC1DA14C34004BFA77 /* CompetitionsTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CompetitionsTableViewController.swift; sourceTree = "<group>"; };
+		195E7BFE1DA14C77004BFA77 /* CompetitionsTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CompetitionsTableViewCell.swift; sourceTree = "<group>"; };
+		195E7C011DA25DAC004BFA77 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		196189891DA4F86F00F3A5E3 /* TekmovanjeViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TekmovanjeViewController.swift; sourceTree = "<group>"; };
+		1961898D1DA5261200F3A5E3 /* Category.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Category.swift; sourceTree = "<group>"; };
+		1981D7711DA376A300832D3E /* Competition.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Competition.swift; sourceTree = "<group>"; };
+		1981D7751DA37F1E00832D3E /* CompCategoriesCollectionViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CompCategoriesCollectionViewCell.swift; sourceTree = "<group>"; };
+		1981D77C1DA3CEE600832D3E /* Competitor.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Competitor.swift; sourceTree = "<group>"; };
+		19CD7F091DB7F5ED0081A8B4 /* FantasyJudoGame.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = FantasyJudoGame.entitlements; sourceTree = "<group>"; };
+		19E961081D9FEF3D0002907C /* Bolts.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = Bolts.framework; sourceTree = "<group>"; };
+		19E9610A1DA0099B0002907C /* HomeViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HomeViewController.swift; sourceTree = "<group>"; };
+		19E9610C1DA03FF30002907C /* ProfileTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ProfileTableViewController.swift; sourceTree = "<group>"; };
+		19E9610E1DA041690002907C /* TextInputTableView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TextInputTableView.swift; sourceTree = "<group>"; };
+		19E961121DA108150002907C /* UsersCollectionViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UsersCollectionViewController.swift; sourceTree = "<group>"; };
+		19E961141DA109700002907C /* CollectionViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CollectionViewCell.swift; sourceTree = "<group>"; };
 		19ED03491D9FB51600154A82 /* FantasyJudoGame.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = FantasyJudoGame.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		19ED034C1D9FB51600154A82 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		19ED034E1D9FB51600154A82 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		19ED03511D9FB51600154A82 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		19ED03541D9FB51600154A82 /* FantasyJudoGame.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = FantasyJudoGame.xcdatamodel; sourceTree = "<group>"; };
 		19ED03561D9FB51600154A82 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		19ED03591D9FB51600154A82 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		19ED035B1D9FB51600154A82 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		19ED03611D9FB53500154A82 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
+		19EDB1061D9FE0F000206CA2 /* FBSDKCoreKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = FBSDKCoreKit.framework; sourceTree = "<group>"; };
+		19EDB1071D9FE0F000206CA2 /* FBSDKLoginKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = FBSDKLoginKit.framework; sourceTree = "<group>"; };
+		8E6A489B5B9017989F46F6FF /* Pods-FantasyJudoGame.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-FantasyJudoGame.release.xcconfig"; path = "Pods/Target Support Files/Pods-FantasyJudoGame/Pods-FantasyJudoGame.release.xcconfig"; sourceTree = "<group>"; };
+		AD56E9E5BCE47414D9DF7260 /* Pods_FantasyJudoGame.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_FantasyJudoGame.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		ED957B0A78E87980B9969BEB /* Pods-FantasyJudoGame.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-FantasyJudoGame.debug.xcconfig"; path = "Pods/Target Support Files/Pods-FantasyJudoGame/Pods-FantasyJudoGame.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -31,17 +72,59 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				220C8D43296C552DD395B2C2 /* Pods_FantasyJudoGame.framework in Frameworks */,
+				19EDB1091D9FE0F000206CA2 /* FBSDKCoreKit.framework in Frameworks */,
+				19EDB10A1D9FE0F000206CA2 /* FBSDKLoginKit.framework in Frameworks */,
+				19E961091D9FEF3D0002907C /* Bolts.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		1981D7771DA3AB1F00832D3E /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				19ED034E1D9FB51600154A82 /* ViewController.swift */,
+				19E9610A1DA0099B0002907C /* HomeViewController.swift */,
+				19E9610C1DA03FF30002907C /* ProfileTableViewController.swift */,
+				19E961121DA108150002907C /* UsersCollectionViewController.swift */,
+				195E7BFC1DA14C34004BFA77 /* CompetitionsTableViewController.swift */,
+				196189891DA4F86F00F3A5E3 /* TekmovanjeViewController.swift */,
+				19454B081DA5B49300C3AEDA /* TekmovalciViewController.swift */,
+			);
+			name = Controller;
+			sourceTree = "<group>";
+		};
+		1981D7781DA3AB3500832D3E /* View */ = {
+			isa = PBXGroup;
+			children = (
+				19E9610E1DA041690002907C /* TextInputTableView.swift */,
+				19E961141DA109700002907C /* CollectionViewCell.swift */,
+				195E7BFE1DA14C77004BFA77 /* CompetitionsTableViewCell.swift */,
+				1981D7751DA37F1E00832D3E /* CompCategoriesCollectionViewCell.swift */,
+				19454B0A1DA5B97F00C3AEDA /* TekmovalciTableViewCell.swift */,
+			);
+			name = View;
+			sourceTree = "<group>";
+		};
+		1981D7791DA3AB7900832D3E /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				1981D7711DA376A300832D3E /* Competition.swift */,
+				1961898D1DA5261200F3A5E3 /* Category.swift */,
+				1981D77C1DA3CEE600832D3E /* Competitor.swift */,
+			);
+			name = Model;
+			sourceTree = "<group>";
+		};
 		19ED03401D9FB51600154A82 = {
 			isa = PBXGroup;
 			children = (
 				19ED034B1D9FB51600154A82 /* FantasyJudoGame */,
 				19ED034A1D9FB51600154A82 /* Products */,
+				8D1E63605C02DEA2466ACC55 /* Pods */,
+				AA2A88EB86221767887FFEFF /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -56,15 +139,39 @@
 		19ED034B1D9FB51600154A82 /* FantasyJudoGame */ = {
 			isa = PBXGroup;
 			children = (
+				19CD7F091DB7F5ED0081A8B4 /* FantasyJudoGame.entitlements */,
 				19ED034C1D9FB51600154A82 /* AppDelegate.swift */,
-				19ED034E1D9FB51600154A82 /* ViewController.swift */,
-				19ED03501D9FB51600154A82 /* Main.storyboard */,
+				1981D7791DA3AB7900832D3E /* Model */,
+				1981D7771DA3AB1F00832D3E /* Controller */,
+				1981D7781DA3AB3500832D3E /* View */,
+				195E7C001DA25DAC004BFA77 /* Main.storyboard */,
 				19ED03561D9FB51600154A82 /* Assets.xcassets */,
 				19ED03581D9FB51600154A82 /* LaunchScreen.storyboard */,
 				19ED035B1D9FB51600154A82 /* Info.plist */,
+				19ED03611D9FB53500154A82 /* GoogleService-Info.plist */,
 				19ED03531D9FB51600154A82 /* FantasyJudoGame.xcdatamodeld */,
 			);
 			path = FantasyJudoGame;
+			sourceTree = "<group>";
+		};
+		8D1E63605C02DEA2466ACC55 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				ED957B0A78E87980B9969BEB /* Pods-FantasyJudoGame.debug.xcconfig */,
+				8E6A489B5B9017989F46F6FF /* Pods-FantasyJudoGame.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		AA2A88EB86221767887FFEFF /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				19E961081D9FEF3D0002907C /* Bolts.framework */,
+				19EDB1061D9FE0F000206CA2 /* FBSDKCoreKit.framework */,
+				19EDB1071D9FE0F000206CA2 /* FBSDKLoginKit.framework */,
+				AD56E9E5BCE47414D9DF7260 /* Pods_FantasyJudoGame.framework */,
+			);
+			name = Frameworks;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -74,9 +181,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 19ED035E1D9FB51600154A82 /* Build configuration list for PBXNativeTarget "FantasyJudoGame" */;
 			buildPhases = (
+				822D70910F8E682D938A678C /* [CP] Check Pods Manifest.lock */,
 				19ED03451D9FB51600154A82 /* Sources */,
 				19ED03461D9FB51600154A82 /* Frameworks */,
 				19ED03471D9FB51600154A82 /* Resources */,
+				84D9C3FDDFA1F0EFFCE37433 /* [CP] Embed Pods Frameworks */,
+				5E88A620447AF8DF2629ACDB /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -99,6 +209,13 @@
 				TargetAttributes = {
 					19ED03481D9FB51600154A82 = {
 						CreatedOnToolsVersion = 7.3;
+						DevelopmentTeam = 73EPTV5GV3;
+						LastSwiftMigration = 0800;
+						SystemCapabilities = {
+							com.apple.Keychain = {
+								enabled = 1;
+							};
+						};
 					};
 				};
 			};
@@ -127,30 +244,93 @@
 			files = (
 				19ED035A1D9FB51600154A82 /* LaunchScreen.storyboard in Resources */,
 				19ED03571D9FB51600154A82 /* Assets.xcassets in Resources */,
-				19ED03521D9FB51600154A82 /* Main.storyboard in Resources */,
+				19ED03621D9FB53500154A82 /* GoogleService-Info.plist in Resources */,
+				195E7C021DA25DAC004BFA77 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		5E88A620447AF8DF2629ACDB /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-FantasyJudoGame/Pods-FantasyJudoGame-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		822D70910F8E682D938A678C /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		84D9C3FDDFA1F0EFFCE37433 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-FantasyJudoGame/Pods-FantasyJudoGame-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		19ED03451D9FB51600154A82 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				1961898A1DA4F86F00F3A5E3 /* TekmovanjeViewController.swift in Sources */,
+				19454B0B1DA5B97F00C3AEDA /* TekmovalciTableViewCell.swift in Sources */,
+				19E9610F1DA041690002907C /* TextInputTableView.swift in Sources */,
+				1961898E1DA5261200F3A5E3 /* Category.swift in Sources */,
+				19E961151DA109700002907C /* CollectionViewCell.swift in Sources */,
+				19E9610D1DA03FF30002907C /* ProfileTableViewController.swift in Sources */,
+				195E7BFD1DA14C34004BFA77 /* CompetitionsTableViewController.swift in Sources */,
+				1981D77D1DA3CEE600832D3E /* Competitor.swift in Sources */,
+				19454B091DA5B49300C3AEDA /* TekmovalciViewController.swift in Sources */,
 				19ED034F1D9FB51600154A82 /* ViewController.swift in Sources */,
 				19ED034D1D9FB51600154A82 /* AppDelegate.swift in Sources */,
+				1981D7721DA376A300832D3E /* Competition.swift in Sources */,
 				19ED03551D9FB51600154A82 /* FantasyJudoGame.xcdatamodeld in Sources */,
+				195E7BFF1DA14C77004BFA77 /* CompetitionsTableViewCell.swift in Sources */,
+				19E9610B1DA0099B0002907C /* HomeViewController.swift in Sources */,
+				19E961131DA108150002907C /* UsersCollectionViewController.swift in Sources */,
+				1981D7761DA37F1E00832D3E /* CompCategoriesCollectionViewCell.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXVariantGroup section */
-		19ED03501D9FB51600154A82 /* Main.storyboard */ = {
+		195E7C001DA25DAC004BFA77 /* Main.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
-				19ED03511D9FB51600154A82 /* Base */,
+				195E7C011DA25DAC004BFA77 /* Base */,
 			);
 			name = Main.storyboard;
 			sourceTree = "<group>";
@@ -251,23 +431,43 @@
 		};
 		19ED035F1D9FB51600154A82 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = ED957B0A78E87980B9969BEB /* Pods-FantasyJudoGame.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = FantasyJudoGame/FantasyJudoGame.entitlements;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				DEVELOPMENT_TEAM = 73EPTV5GV3;
+				ENABLE_BITCODE = YES;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)",
+				);
 				INFOPLIST_FILE = FantasyJudoGame/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.bobek00.FantasyJudoGame;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 2.3;
 			};
 			name = Debug;
 		};
 		19ED03601D9FB51600154A82 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 8E6A489B5B9017989F46F6FF /* Pods-FantasyJudoGame.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = FantasyJudoGame/FantasyJudoGame.entitlements;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				DEVELOPMENT_TEAM = 73EPTV5GV3;
+				ENABLE_BITCODE = YES;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)",
+				);
 				INFOPLIST_FILE = FantasyJudoGame/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.bobek00.FantasyJudoGame;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 2.3;
 			};
 			name = Release;
 		};
@@ -290,6 +490,7 @@
 				19ED03601D9FB51600154A82 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 
